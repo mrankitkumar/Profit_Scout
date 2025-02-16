@@ -1,0 +1,195 @@
+/* General styles for the boxes */
+.box {
+  padding: 10px;
+  /* margin: 0 auto; */
+
+}
+.dashboard{
+  padding-left: 1.5% !important;
+    padding-right:2% !important;
+}
+.small-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+      height: 99px !important;
+}
+
+/* Images */
+.small-box img {
+      max-width: fit-content;
+    height: auto;
+    object-fit: contain;
+    padding:5%;
+}
+.content-wrapper{
+  height:100rem !important;
+}
+/* Text adjustments */
+.inner p {
+  margin: 0;
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.inner p.text-end {
+  font-family: 'Inter',sans-serif ;
+    font-style: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+white-space:nowrap !important ;
+overflow: hidden !important,
+text-overflow: ellipsis !important,
+
+}
+
+.inner p.text-right {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+line-height: 21px;
+text-align: "right";
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+white-space:nowrap;
+overflow: "hidden",
+text-overflow: "ellipsis",
+    margin-top: 3% !important;
+}
+
+/* Responsive adjustments using Bootstrap classes */
+@media (max-width: 1200px) {
+  .small-box {
+    height: 100px;
+  }
+  .inner p.text-end {
+    font-size: 1rem;
+  }
+  .inner p.text-right {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+  }
+  .dashboard{
+  padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+}
+
+@media (max-width: 992px) {
+  .small-box {
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+  }
+  .inner {
+    text-align: center;
+  }
+  .inner p.text-end,
+  .inner p.text-right {
+    font-size: 0.9rem;
+  }
+  
+        .iconimage {
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 768px) {
+  .small-box {
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+  }
+  .inner {
+    text-align: center;
+  }
+  .inner p.text-end,
+  .inner p.text-right {
+    font-size: 0.85rem;
+  }
+  
+        .iconimage {
+        margin-left: -8rem;
+    }
+}
+
+@media (max-width: 576px) {
+  .small-box {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+  }
+  .inner p.text-end,
+  .inner p.text-right {
+    font-size: 0.75rem;
+  }
+  img {
+    max-width: 50%;
+  }
+  
+        .iconimage {
+        margin-left: -3rem;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1283px){
+    .box{
+        width:18% !important;
+    }
+      .small-box {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+  }
+  .inner p.text-end{
+      font-size: 14px !important;
+    font-family:"Inter",sans-serif !important;
+        margin-left: 14%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+  }
+  .inner p.text-right {
+             font-size: 24px !important;
+        font-weight: 300 !important;
+        margin-top: 5%;
+  }
+  
+        .iconimage {
+        margin-left: -1rem;
+    }
+  
+}
+
+@media screen and (min-width:1283px) and (max-width:1476px){
+    .box{
+        width:15% !important;
+    }
+      .small-box {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+  }
+   .inner p.text-end{
+      font-size: 14px !important;
+    font-family:"Inter",sans-serif !important;
+        margin-left: 14%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+  }
+  .inner p.text-right {
+     
+        font-size: 24px !important;
+    font-weight: 300 !important;
+    margin-top:5% !important;
+  }
+}

@@ -1,0 +1,271 @@
+ #dropZone {
+      position: relative !important;
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 180px;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    #dropZone.dragover {
+      background-color: #f5f5f5;
+       border-color: #30C37C;
+    }
+    .profile-user-img {
+       width: 100% !important;
+    position: absolute !important;
+    top: 0% !important;
+    height: 100% !important;
+    left: 0% !important;
+    border-radius:10px !important;
+    }
+    .camera-icon {
+     font-size: 1rem;
+      color: #ffffff;
+      position: absolute;
+      top: 82%;
+      left: 50%;
+      align-content:center;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      border:1px solid #30C37C;
+      background-color:#30C37C;
+      border-radius:50%;
+      width:18%;
+      height:15%;
+    }
+    .mcon{
+        border-radius:10px;
+    }
+    .addsuccess{
+  font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+.back{
+color: #30C37C !important;
+background-color:  #ffffff !important;
+   border:1px solid   #30C37C !important;
+width:100%;
+height:50px !important;
+font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 21px;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius:10px !important;
+}
+.card-header h3{
+font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+        line-height: 39px !important;
+    color: #262D34 !important;
+    height: 27px !important;
+}
+.row1{
+      padding-left: 1.5% ! important;
+    padding-right: 2% !important;
+}
+ .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+.submit{
+   background-color: #30C37C !important;
+   border:1px solid  #30C37C !important;
+   height:50px !important;
+color: #ffffff !important;
+width:100%;
+font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 21px;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius:10px !important;
+margin-bottom:2%;
+}
+.back:hover{
+  border:1px solid  #30C37C !important;
+}
+
+.addcompanypart{
+  margin-top:5% !important;
+}
+@media (max-width: 575.98px) {
+.addcompanypart{
+  margin-top:5% !important;
+}
+ #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+}
+@media (min-width: 375px) {
+.addcompanypart{
+  margin-top:17% !important;
+}
+ #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+}
+
+/* Medium Devices (Tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.addcompanypart{
+  margin-top:15% !important;
+}
+ #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+}
+
+/* Large Devices (Desktops, 768px to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.addcompanypart{
+  margin-top:8% !important;
+}
+ #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+}
+
+/* Laptop Devices (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.addcompanypart{
+  margin-top:8% !important;
+}
+ .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+     #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+}
+
+/* Extra Large Devices (Wide Screens, 1200px and above) */
+@media (min-width: 1200px) {
+.addcompanypart{
+  margin-top:6% !important;
+}
+ #dropZone {
+      position: relative;
+      /* border: 2px dashed #ccc; */
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+       background-color:#ededed;
+    }
+    .box-profile p{
+                 width: 100% !important;
+        margin-top: 2%;
+        font-size: 14px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 400 !important;
+    }
+}

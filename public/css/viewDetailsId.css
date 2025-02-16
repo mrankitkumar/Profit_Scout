@@ -1,0 +1,792 @@
+.secondcontainer{
+    padding-left:1% !important;
+    padding-right:0% !important;
+    background-color: #ffffff !important;
+}
+.third{
+    border-radius:10px !important;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+.clearfix{
+     background-color: #ffffff !important; 
+}
+.clearfix a{
+     color: #30c37c !important;
+}
+.card-title{
+    font-family: "Inter",sans-serif !important;
+font-size: 16px !important;
+font-weight: 600 !important;
+line-height: 17.6px !important;
+text-align: left !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#262D34 !important;
+}
+.amazon1 {
+   border-radius: 50% !important;
+    height: 50px;
+     width: 20% !important;
+}
+.goback{
+      width: 79% !important;
+    margin-left: 20% !important;
+    height: 50px;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border-radius:10px !important;
+    font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 21px;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-wrap-mode :nowrap !important;
+}
+svg {
+    width: 30px;
+    height: 30px;
+    fill:  #9097A7  !important; /* Change color of the icon */
+}
+svg:hover {
+    fill:  #9097A7  !important; /* Change color on hover */
+}
+.buttongroupdetails{
+    padding-left:0% !important;
+    padding-right:0% !important;
+}
+.flag {
+    background: white !important;
+    border-radius: 50% !important;
+     height: 50px;
+     border:none !important;
+     color: #9097A7  !important;
+     
+}
+.page-title{
+     font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 18.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.description-block1 > .description-header1 {
+         font-family: 'Inter', sans-serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#placeholdertext{
+  position: absolute !important;
+    top: 38%;
+    left:  50%;
+    transform: translateY(-50%);
+   color:#FF6C2F;
+   font-family: "Inter",sans-serif;
+font-size: 24px;
+font-weight: 400 !important;
+line-height: 21px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.NetProfit,
+.ROI{
+border: 1px solid #8C8C8C !important;
+    font-family: "Inter", sans-serif;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.card1 p{
+   font-family: "Inter",sans-serif !important;
+font-size: 16px !important;
+font-weight: 700 !important;
+line-height: 19.2px !important;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.fba{
+     width: 37% !important;
+    height: 23px;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border-radius:3px !important;
+    font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 15px !important;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-wrap-mode :nowrap !important;  
+}
+.days30{
+  width: 110px !important;
+    height: 41px;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border-radius:10px !important;
+    font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 15px !important;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-wrap-mode :nowrap !important; 
+} 
+.days90{
+  width: 110px !important;
+    height: 41px;
+    background-color: #f4f5fa  !important;
+    color: #8C8C8C !important;
+    border-radius:10px !important;
+    font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 15px !important;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-wrap-mode :nowrap !important; 
+}
+.days365{
+  width: 110px !important;
+    height: 41px;
+    background-color: #f4f5fa !important;
+    color: #8C8C8C !important;
+    border-radius:10px !important;
+    font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 15px !important;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-wrap-mode :nowrap !important; 
+}
+.form-group > input::placeholder {
+    color:black !important;
+}
+.daysbutton{
+     display: flex;
+            justify-content: center;
+            gap: 10px;
+}
+.showgraphstauts{
+      display: flex;
+            justify-content: center;
+            gap: 2px;
+            /* border:1px solid red; */
+}
+.form-check-input {
+    position: sticky !important;
+    margin-top: 0 !important;
+    margin-right: 0rem !important;
+    margin-left: 0 !important;
+}
+.SalesRank{
+       background: #26E7A6;
+    width: 12%;
+    height: 18px;
+    margin-left: -6%;
+    border-radius: 100%;
+    border: 1px solid #26E7A6;
+}
+.Amazon{
+       background: #FEBC3B;
+    width:15%;
+    height:18px;
+     margin-left:3%;
+    border-radius:90%;
+    border:1px solid #FEBC3B;
+}
+.New{
+          background: #26A0FB;
+    width:15%;
+    height:18px;
+    margin-left:15%;
+    border-radius:100%;
+    border:1px solid #26A0FB;
+}
+.newprice{
+ font-family: 'Inter', sans-serif !important;
+    /* font-style: normal; */
+    font-weight: 400  ;
+    font-size: 12px ;
+    line-height: 18px;
+        white-space: nowrap;
+    margin-top: -1%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.amazonprice{
+   font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+        white-space: nowrap;
+    margin-top: -1%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.salesrankprice{
+        font-family: 'Inter', sans-serif !important;
+    /* font-style: normal; */
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+        white-space: nowrap;
+    margin-top: -1%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+.vdimage {
+    width: 90%;
+    height: 100% !important;
+}
+.tableimg {
+    width: 30%;
+    height: 100%;
+}
+.toptext {
+   font-family: "Inter", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-wrap-mode:nowrap !important;    
+}
+.maintextbox{
+      text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    width: 100% !important;
+}
+table th {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-wrap-mode: nowrap;
+  background-color:#FCFCFD !important;
+}
+table td {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400 !important;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-wrap-mode: nowrap;
+  background-color: #ffffff !important;
+}
+table {
+    --bs-table-striped-bg: #ffffff !important; 
+}
+ 
+.thirdall{
+    color: black;
+    height: 40px;
+    padding: 5px;
+    margin: 1% 0.5% 2% 0.5%;
+    text-wrap-mode: nowrap;
+}
+.all, 
+.condition {
+    background-color: #F0F0F0 !important;
+    color: black;
+    height: 50px;
+    margin: 1% 0.5% 2% 0.5%;
+    text-wrap-mode: nowrap;
+}
+
+.shipmethod{
+    height:50px;
+       /* margin: 1% 0.5% 2% 0.5%; */
+       text-align:center;
+      background-color: #F0F0F0 !important;
+}
+.shipmethod1{
+    width:50%;
+    height:50px;
+       margin: 1% 0.5% 2% 0.5%;
+     background-color: #F0F0F0 !important;
+}
+.form-control:disabled{
+    background-color: #EBEBEB !important;
+}
+.all, .thirdall {
+    width: 60% !important;
+}
+.condition {
+    width: 40% !important;
+}
+.container-fluid1{
+        width: 100% !important;
+    padding-right: 1.5px !important;
+    padding-left: 7.5px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+#areachart{
+        min-height: 305px !important;
+    height: 900px !important;
+    max-height: 250px;
+    max-width: 100%;
+}
+#customprice1,
+#customcost2 {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    /* background: linear-gradient(to right, #30C37C 50%, #CFF3E2 50%) !important; */
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: linear-gradient(to right, #30C37C 50%, #CFF3E2 50%);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #30C37C;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.rangetext {
+    margin-top: -5%;
+    width: 60px;
+    text-align: center;
+    margin-left: 5px;
+    border: none !important;
+    background:#ffffff !important;
+    color: #30C37C !important;
+}
+  .range-slider {
+      width: 100%;
+      position: relative;
+    }
+
+    .range-slider input[type="range"] {
+      width: 100%;
+      -webkit-appearance: none;
+      background: transparent;
+    }
+
+    .range-slider input[type="range"]::-webkit-slider-runnable-track {
+      height: 8px;
+      background: linear-gradient(to right, #30C37C var(--value, 50%), #CFF3E2 var(--value, 50%));
+      border-radius: 5px;
+    }
+
+    .range-slider input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 16px;
+      width: 16px;
+      background: #30C37C;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .range-slider input[type="range"]::-moz-range-thumb {
+      height: 16px;
+      width: 16px;
+      background: #30C37C;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .range-slider input[type="range"]:focus {
+      outline: none;
+    }
+/* Responsive Styles */
+@media (min-width:1201px) and (max-width:1500px){
+   .shipmethod1 {
+        width: 100% !important; /* Adjust the width for larger screens */
+    }
+    .condition {
+        width: 100% !important; /* You can adjust this as needed */
+    }
+    .Amazon {
+                margin-left: 1%;
+        min-width: 16%;
+    }
+
+.SalesRank {
+              margin-left: 1%;
+        min-width: 16%;
+}
+    #areachart{
+            min-height: 349px !important;
+    }
+    .goback{
+        width:89% !important;
+        margin-left:13% !important;
+    }
+    .NetProfit,
+.ROI{
+border: 1px solid #8C8C8C !important;
+    font-family: "Inter", sans-serif;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+}
+@media (max-width: 1200px) {
+    .all,
+     .condition {
+        width: 75% !important;
+    }
+    .tableimg {
+        width: 50%;
+    }
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+    .goback{
+  height:50px;
+  text-wrap-mode:nowrap;
+  width:100% !important;
+  margin-left:-5% !important;
+  
+}
+    .NetProfit,
+.ROI{
+    font-size: 14px !important;
+  
+}
+#placeholdertext{
+  position: absolute !important;
+    top: 38%;
+    left: 60%;
+    transform: translateY(-50%);
+   color:#FF6C2F;
+   font-family: "Inter",sans-serif;
+font-size: 13px;
+font-weight: 400 !important;
+line-height: 21px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+    .toptext {
+        font-size: 15px;
+    }
+    .goback{
+  height:50px;
+  text-wrap-mode:nowrap;
+  width:100%;
+}
+.page-title{
+        font-size: 14px !important;
+        font-weight: 600;
+        font-family: "Inter", sans-serif !important;
+}
+.shipmethod1 {
+    width:100% !important;
+        
+}
+.container-fluid1{
+    padding-right: 1.5px !important;
+    padding-left: 0.5px !important;
+    
+}
+#areachart{
+        min-height: 350px !important;
+}
+.SalesRank {
+    position:absolute;
+     margin-left: -6%;
+}
+.Amazon{
+    position:absolute;
+     margin-left: -6%;
+}
+.New{
+            position: absolute;
+        margin-left: -6%;
+}
+.salesrankprice{
+    margin-left:19%;
+}
+.amazonprice{
+    margin-left:19%;
+}
+.newprice{
+       margin-left:12% !important;
+}
+.showgraphstauts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+.shippingmethod {
+    width: 50%;
+}
+.condition{
+    width:100% !important;
+}
+.thirdall{
+    width:100% !important;
+}
+.card1{
+    padding-left:2% !important;
+}
+.description-block1 > .description-header1 {
+    font-size: 16px !important;
+    font-weight: 400 !important !important;
+    margin: 2px;
+    padding: 5%;
+    font-family:"Inter",sans-serif !important;
+}
+.maintextbox{
+    padding:5px !important;
+}
+.fba {
+            width: 37% !important;
+        position: absolute;
+        left: 73%;
+        top: 24%;  
+        text-align:start !important;
+}
+}
+
+@media (max-width: 992px) {
+    .all,
+     .condition {
+        width: 90% !important;
+    }
+    .vdimage {
+        width: 100%;
+    }
+    .tableimg {
+        width: 70%;
+    }
+    .toptext {
+        font-size: 15px;
+    }
+    .goback{
+  height:50px;
+  text-wrap-mode:nowrap;
+  width:50%;
+}
+.page-title{
+font-size: 13px !important;
+}
+.container-fluid1{
+    padding-right: 1.5px !important;
+    padding-left: 0.5px !important;
+    
+}
+#areachart{
+        min-height: 359px !important;
+        margin-left:0% !important;
+}
+.SalesRank {
+            position: absolute;
+        margin-left: 14%;
+}
+.Amazon{
+    position:absolute;
+     margin-left: 14%;
+}
+#placeholdertext{
+
+font-size: 18px;
+}
+.New{
+     position:absolute;
+      margin-left: -6%;
+}
+.shipmethod1 {
+    width:100%;
+}
+.fba{
+    margin-left:-27%;
+    text-align:center !important;
+}
+.archart{
+      margin-left:-2% !important;
+}
+.salesrankprice{
+           margin-left: 41%;
+}
+.amazonprice{
+    margin-left:41%;
+}
+.newprice{
+       margin-left:17% !important;
+}
+.showgraphstauts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+.shippingmethod {
+    width: 100% !important;
+}
+.condition{
+    width:100% !important;
+}
+.thirdall{
+    width:100% !important;
+}
+.description-block1 > .description-header1 {
+    font-size: 14px;
+    font-weight: 400 !important;
+    margin: 2px;
+    padding: 2px;
+}
+.maintextbox{
+    padding:5px !important;
+}
+}
+
+@media (max-width: 768px) {
+    .all, .thirdall, .condition {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+      .vdimage {
+        width: 100%;
+    }
+    .tableimg {
+        width: 100%;
+    }
+    #placeholdertext{
+
+font-size: 19px;
+}
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    .goback{
+  height:50px;
+  text-wrap-mode:nowrap;
+  width:50%;
+}
+.maintextbox{
+    padding:5px !important;
+}
+.SalesRank {
+            position: absolute;
+        margin-left: -37%;
+}
+.Amazon{
+    position:absolute;
+     margin-left: -37%;
+}
+.New{
+     position:absolute;
+      margin-left: -51%;
+}
+  .card1{
+               padding-left: 1.1% !important;
+    }
+    .archart{
+      margin-left:0% !important;
+}
+}
+
+@media (max-width: 576px) {
+    .rangetext {
+        margin-top: -10%;
+        width: 50px;
+    }
+    .toptext {
+        font-size: 15px;
+    }
+    .SalesRank {
+            position: absolute;
+        margin-left: -37%;
+}
+.Amazon{
+    position:absolute;
+     margin-left: -37%;
+}
+.New{
+     position:absolute;
+      margin-left: -71%;
+}
+#placeholdertext{
+
+font-size: 21px;
+}
+    .goback{
+  height:50px;
+  /* text-wrap-mode:nowrap; */
+  width:100% !important;
+  text:none;
+          margin-left: -5% !important;
+}
+.third{
+    border-radius:10px !important;
+}
+    .page-title {
+        font-size: 13px !important;
+        /* text-overflow:ellipsis !important;
+        overflow:hidden !important;
+        white-space:nowrap !important; */
+        width:100% !important;
+    }
+    .card1{
+                padding-left: 1.1% !important;
+    }
+    .shipmethod1{
+    width:100%;
+
+}
+.fba {
+                 width: 35% !important;
+        position: absolute;
+        left: 53%;
+        top: 24%;
+}
+}

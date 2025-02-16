@@ -1,0 +1,405 @@
+/* General Styles */
+.checkinput:checked {
+  background-color: #30C37C !important;
+  border: none;
+}
+.buttongroup{
+  border-radius:inherit;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+
+.addsubscriptionbtn {
+  background-color: #30C37C;
+  color: white;
+  margin-left: 35%;
+  text-wrap: nowrap;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top:0.5%;
+}
+
+.addcompanybtn {
+  background-color: #30C37C;
+  color: white;
+  margin-left: 35%;
+  text-wrap: nowrap;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
+
+.btn.active {
+  background-color: #D3F3DF !important;
+  color: #30C37C;
+  border-color: #D3F3DF !important;
+}
+
+.addcustomer {
+  background: #7A807D1A !important;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.addcustomercompany {
+  background-color: #7A807D1A;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.imgadd {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.anchor {
+  text-decoration: none !important;
+  color: white;
+}
+
+.anchor:hover {
+  color: white;
+}
+
+table th {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #262D34 !important;
+  white-space: nowrap;
+    background-color:#EBEBEB !important;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+background-color:#8C8C8C !important;
+color:#ffffff !important;
+height:17px !important;
+}
+h3{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #262D34;
+  white-space: nowrap;
+  text-wrap-mode:nowrap;   
+}
+.page-link{
+  color:#343a40 !important;
+}
+body{
+  overflow:hidden;
+  overflow-x:hidden;
+}
+
+table td {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #262D34;
+  white-space: nowrap;
+}
+
+.mcon {
+  border-radius: 10px;
+  width: 350px;
+  height: 180px;
+}
+
+.no {
+  border: none !important;
+  background-color: transparent !important;
+  margin-right: 70px !important;
+  color: #0f0f0f !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  font-family: "Inter", sans-serif;
+}
+
+.yes {
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+  color: #0f0f0f;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.managetextheading {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: auto;
+    text-wrap-style: pretty;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+background-color:#8C8C8C !important;
+color:#ffffff !important;
+height:17px !important;
+}
+  .buttongroup h3{
+font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+        line-height: 39px !important;
+    color: #262D34 !important;
+    height: 27px !important;
+}
+.line {
+  border-left: 1px solid #EBEBEB;
+  height: 63px;
+  margin: 0 10px;
+}
+
+.deleteicon {
+  color: #E51A2E;
+  margin-top: 2%;
+}
+
+.yesandno {
+  height: 50px;
+}
+
+.packagesuccess{
+   font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+
+  
+  .tooltip {
+    background-color: #f8f9fa !important; /* Light background */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 150px; /* Limit width */
+       border:1px solid red;
+  }
+
+  
+  /* Style the tooltip arrow */
+  .tooltip .tooltip-arrow {
+    color: #f8f9fa; /* Match tooltip background */
+       border:1px solid red;
+  }
+
+  /* Style the tooltip inner content (title text) */
+  .tooltip .tooltip-inner {
+    color: #333; /* Dark text color */
+    font-size: 14px; /* Font size */
+    font-weight: 400; /* Normal font weight */
+    line-height: 1.5; /* Improve line spacing for multi-line text */
+    padding: 10px; /* Add padding for readability */
+    text-align: left; /* Align text to the left */
+    width:100px !important;
+    border:1px solid red;
+  }
+
+  .managesubscription{
+    margin-top:5% !important;
+    border-radius:10px !important;
+ 
+  }
+  .deletesubscriptionheader{
+    margin-bottom:none;
+  }
+  .row1{
+       padding-left:2%;
+    padding-right:2.5%;
+  }
+  .cross{
+    position: absolute; top: 10px; right: 10px;
+  }
+  .msub{
+    width: 384px; height: 146px;
+  }
+  .msubdialog{
+    position: fixed; left: 50%; transform: translateX(-50%);
+  }
+  .submit{
+   background-color: #30C37C !important;
+   border:1px solid  #30C37C !important;
+   height:50px !important;
+color: #ffffff  !important;
+width:auto;
+font-family: "Inter",sans-serif !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 21px;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius:10px !important;
+margin-bottom:2%;
+
+}
+.deletesubscription{
+  border-radius:10px !important;
+}
+/* Responsive Adjustments */
+
+/* Small Devices (Mobile, less than 576px) */
+@media (max-width: 575.98px) {
+  .addsubscriptionbtn {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .imgadd {
+    width: 20px;
+    height: 20px;
+  }
+
+  table th,
+  table td {
+    font-size: 12px;
+    line-height: 18px;
+  }
+   .managesubscription{
+    margin-top:15% !important;
+  }
+}
+
+/* Medium Devices (Tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .addsubscriptionbtn {
+           margin-left: 0%;
+        width: 100%;
+  }
+
+  .imgadd {
+    width: 22px;
+    height: 22px;
+  }
+
+  table th,
+  table td {
+    font-size: 13px;
+  }
+
+  .mcon {
+    max-width: 480px;
+  }
+   .managesubscription{
+    margin-top:15% !important;
+  }
+}
+
+/* Large Devices (Desktops, 768px to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .addsubscriptionbtn {
+    margin-left: 15%;
+    width: 40%;
+  }
+
+  .imgadd {
+    width: 24px;
+    height: 24px;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+  }
+   .managesubscription{
+    margin-top:8% !important;
+  }
+}
+
+/* Laptop Devices (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .addsubscriptionbtn {
+    margin-left: 12%;
+    width: 60%;
+  }
+
+  .imgadd {
+    width: 26px;
+    height: 26px;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+  }
+
+  .mcon {
+    max-width: 600px;
+  }
+   .managesubscription{
+    margin-top:10% !important;
+  }
+}
+
+/* Extra Large Devices (Wide Screens, 1200px and above) */
+@media (min-width: 1200px) {
+  .addsubscriptionbtn {
+            margin-left: 32%;
+        width:18% !important;
+  }
+
+  .imgadd {
+    width: 28px;
+    height: 28px;
+  }
+
+  table th,
+  table td {
+    font-size: 16px;
+  }
+    .managesubscription{
+    margin-top:8% !important;
+  }
+}

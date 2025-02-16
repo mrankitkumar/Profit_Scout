@@ -1,0 +1,163 @@
+.card-header{
+    font-family: "Inter",sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 17.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#262D34;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+.card-header1{
+    font-family: "Inter",sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 17.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#262D34;
+}
+.myprofile{
+  position:absolute !important;
+      margin-top: 3% !important;
+          width: -webkit-fill-available;
+}
+
+.checkinput1{
+    background-color:#30C37C !important;
+    border:none;
+        width: 49.5px !important;
+    height: 27px;
+}
+.submitbutton{
+    width: 100%;
+height: 50px;
+border-radius: 10px !important;
+font-family: "Inter",sans-serif !important;
+font-size: 16px !important;
+font-weight: 600 !important;
+line-height: 21px !important;
+text-align: center !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ background-color:#30C37C !important;
+ color:#ffffff !important;
+}
+.submitbutton1{
+    width: 258px;
+height: 50px;
+border-radius: 10px !important;
+font-family: "Inter",sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#30C37C !important;
+
+}
+    .addsuccess{
+  font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+.mcon{
+width: 384px; height: 146px
+
+}
+.editcross{
+    position: absolute; top: 10px; right: 10px;
+}
+.settingpart h3{
+    /* position: absolute; */
+    height: 14px;
+    /* top: calc(50% - 22px / 2); */
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #262D34;
+}
+
+@media (max-width: 575.98px) {
+.settingpart{
+  margin-top:5% !important;
+}
+.myprofile{
+  position:absolute !important;
+      margin-top: 17% !important;
+        margin-right: 2%;
+        margin-left: 1%;
+}
+}
+@media (min-width: 375px) {
+.settingpart{
+  margin-top:2% !important;
+}
+}
+
+/* Medium Devices (Tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.settingpart{
+  margin-top:1% !important;
+}
+.myprofile{
+  position:absolute !important;
+      margin-top: 12% !important;
+        margin-right: 2%;
+        margin-left: 1%;
+}
+
+}
+
+/* Large Devices (Desktops, 768px to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.settingpart{
+  margin-top:2% !important;
+}
+.myprofile{
+  position:absolute !important;
+      margin-top: 7% !important;
+        margin-right: 2%;
+        margin-left: 1%;
+}
+
+}
+
+/* Laptop Devices (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.settingpart{
+  margin-top:1% !important;
+}
+.myprofile{
+  position:absolute !important;
+      margin-top: 7% !important;
+        margin-right: 2%;
+        margin-left: 1%;
+}
+}
+
+/* Extra Large Devices (Wide Screens, 1200px and above) */
+@media (min-width: 1200px) {
+.settingpart{
+  margin-top:1% !important;
+  width:auto;
+}
+.myprofile{
+         position: absolute !important;
+        margin-top: 5% !important;
+        margin-right: 2%;
+        margin-left: 1%;
+}
+}

@@ -1,0 +1,511 @@
+/* General Styles */
+.checkinput:checked {
+  background-color: #30C37C !important;
+  border: none;
+}
+.checkinput1:checked{
+   background-color: #30C37C !important;
+     border: none;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+.checkinput{
+       position: absolute;
+    /* border: 1px solid red !important; */
+    margin-left: -88% !important;
+    margin-top:-5%;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
+
+.btn.active {
+  background-color: #D3F3DF !important;
+  color: #30C37C !important;
+  border-color: #D3F3DF !important;
+}
+
+.addPage {
+  background: #7A807D1A !important;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px !important;
+   font-family:"Inter",sans-serif !important;
+}
+
+.addFaq {
+  background-color: #7A807D1A !important;
+  color: black !important;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px !important;
+  font-family:"Inter",sans-serif;
+}
+
+.imgadd {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.form-group label{
+  /* Page Title */
+font-family: 'Inter',sans-serif  !important;
+font-style: normal ;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 21px !important;
+color: #262D34;
+
+}
+.anchor {
+  text-decoration: none !important;
+  color: white;
+}
+
+.anchor:hover {
+  color: white;
+}
+
+table th {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #262D34;
+  white-space: nowrap;
+  background-color:#EBEBEB !important;
+}
+.page-link{
+   color: #262D34 !important;
+   border-radius:10px !important;
+}
+.deletesubscription{
+  border-radius:10px !important;
+}
+.managetextheading {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: auto;
+    text-wrap-style: pretty;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+background-color:#8C8C8C !important;
+color:#ffffff !important;
+height:17px !important;
+}
+table td {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #262D34;
+  white-space: nowrap;
+}
+
+.mcon {
+  border-radius: 10px;
+  width: 350px;
+  height: 180px;
+  style="width: 384px; height: 146px"
+/* style="width: 384px; height: 146px"
+style="width: 384px; height: 146px" */
+}
+.cross{
+position: absolute; top: 10px; right: 10px;
+}
+.mcondialog{
+  border-radius: 10px !important;
+}
+.no {
+  border: none !important;
+  background-color: transparent !important;
+  margin-right: 70px !important;
+  color: #0f0f0f !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  font-family: "Inter", sans-serif;
+}
+
+.yes {
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+  color: #0f0f0f;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.pagetextheading {
+  font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: end;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: auto;
+    padding:2.4%;
+}
+
+.line {
+  border-left: 1px solid #EBEBEB;
+  height: 63px;
+  margin: 0 10px;
+}
+.cross{
+  position: absolute; top: 10px; right: 10px;
+}
+.faqsuccess{
+   font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+.deleteicon {
+  color: #E51A2E;
+  margin-top: 2%;
+}
+
+.yesandno {
+  height: 50px;
+}
+
+.modal-header{
+  border-bottom:1px solid #EBEBEB !important;
+}
+
+.editor-container {
+  margin-top: 20px;
+}
+.addfaqbtn {
+  background-color: #30C37C;
+  color: white;
+  margin-left: 35%;
+  text-wrap: nowrap;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  /* Add New Question */
+font-family: 'Inter',sans-serif !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 21px;
+color: #FFFFFF;
+}
+#editor {
+  height: 200px; /* Adjust the editor height as per your need */
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+.texthead{
+  font-size: 14px; font-weight: 400; color: #363636; font-family: 'Inter', sans-serif; margin-top: -1.5rem; margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.ql-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+.toolbar button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toolbar button:hover {
+  background-color: #ddd;
+}
+
+/* Add margin between the last icon and the right side */
+.toolbar .spacer {
+  flex-grow: 1;
+}
+
+
+.toolbar button.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+
+/* Form Group */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Toolbar Styles */
+#toolbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#toolbar button {
+      background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    width: 8%;
+}
+
+#toolbar button:hover {
+  color: #007bff;
+}
+
+#toolbar .disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Spacer to push elements */
+.spacer {
+  flex-grow: 1;
+}
+
+/* Editor Area Styles */
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-height: 200px;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.editor-container:focus {
+  outline: none;
+}
+
+.status-container{
+    /* border:1px solid red; */
+    margin-top:5%;
+    position:relative;
+}
+.checkinput1{
+    margin-top: -5% !important;
+    margin-left: 88% !important;
+}
+.toggleswitch label{
+    color:rgba(140, 140, 140, 0.72) !important;
+         margin-top: -3%;
+         font-family: "Inter",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.texteditbutton{
+    background-color: #30C37C !important;
+    color: #FFFFFF !important;
+    text-wrap: nowrap;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Inter",sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.managepage{
+  margin-top:5% ;
+  border-radius:10px !important;
+  margin-left:1%;
+  margin-right:1.5%;
+}
+.buttongroup{
+       border-radius: 10px !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+/* Responsive Adjustments */
+@media (min-width:375px){
+    .managepage{
+  margin-top:11% !important;
+}
+}
+/* Small Devices (Mobile, less than 576px) */
+@media (max-width: 575.98px) {
+  .addfaqbtn {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .imgadd {
+    width: 20px;
+    height: 20px;
+  }
+
+  table th,
+  table td {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .managepage{
+  margin-top:15% !important;
+}
+}
+
+/* Medium Devices (Tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .addfaqbtn {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .imgadd {
+    width: 22px;
+    height: 22px;
+  }
+
+  table th,
+  table td {
+    font-size: 13px;
+  }
+
+  .mcon {
+    max-width: 480px;
+  }
+  .managepage{
+  margin-top:10% !important;
+}
+}
+
+/* Large Devices (Desktops, 768px to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .addfaqbtn {
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  .imgadd {
+    width: 24px;
+    height: 24px;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+  }
+  .managepage{
+  margin-top:7% !important;
+}
+}
+
+/* Laptop Devices (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .addfaqbtn {
+    margin-left: 30%;
+    width: 60%;
+  }
+
+  .imgadd {
+    width: 26px;
+    height: 26px;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+  }
+
+  .mcon {
+    max-width: 600px;
+  }
+  .managepage{
+  margin-top:7% !important;
+}
+}
+
+/* Extra Large Devices (Wide Screens, 1200px and above) */
+@media (min-width: 1200px) {
+  .addfaqbtn {
+    margin-left: 35%;
+    width: auto;
+  }
+
+  .imgadd {
+    width: 28px;
+    height: 28px;
+  }
+
+  table th,
+  table td {
+    font-size: 16px;
+  }
+  .managepage{
+  margin-top:5% !important;
+}
+}
+
+

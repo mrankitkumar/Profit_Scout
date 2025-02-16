@@ -1,0 +1,107 @@
+#countryDropdown {
+     width: 5rem;
+    height: 40px;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    background-size: 20px;
+    /* color: white !important; */
+    border-radius: 10px !important;
+    border: 1px solid white;
+    background-color: white !important;
+}
+
+.userimage{
+         max-width: 100%;
+    height: 38px;
+    margin-top: -5.5px;
+}
+.admintext{
+   font-size: 14px;
+              font-weight: SemiBold;
+              color: #363636;
+              margin-bottom: 10px;
+}
+.setting{
+     max-width: 100%;
+    height: 30px;
+    margin-top: -3px;
+}
+.editprofile{
+  width: 20px; height: 20px;
+}
+.changepassword{
+   width: 20px; height: 20px;
+}
+.cph3{
+  font-family: 'Roboto', sans-serif;  font-weight: 400;
+}
+.logout{
+width: 20px; height: 20px;
+}
+.lh3{
+   font-family: 'Roboto', sans-serif;  font-weight: 400;
+}
+.anchor1{
+  color:#707793 !important;
+  font-family: "Inter",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 19.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.navtextheading{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: end;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: auto;
+    padding:5%;
+}
+.nonavbar{
+    border: none !important;
+  background-color: transparent !important;
+  margin-right: 70px !important;
+  color: #0f0f0f !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  font-family: "Inter", sans-serif;
+}
+.yesnavbar {
+      border: none;
+    background-color: transparent;
+    margin-left: 40px;
+    color: #0f0f0f;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-top: 12%;
+}
+.linenavbar {
+  border-left: 1px solid #EBEBEB;
+  height: 53px;
+  margin: 0 10px;
+}
+.cross{
+   position: absolute; top: 10px; right: 10px;
+}
+.successtextnavbar{
+  font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+.navbar{
+  background-color:#f5f6fa !important;
+}
+.logoutmcon{
+  border-radius:10px !important;
+}

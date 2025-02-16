@@ -1,0 +1,100 @@
+.card-header{
+    font-family: "Inter",sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 17.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#262D34;
+}
+.form-check-input:checked{
+  background-color: #30c37c !important;
+    color: #30c37c !important;
+    border:1px solid #30c37c !Important;
+}
+.card-header1{
+    font-family: "Inter",sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 17.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#262D34;
+}
+.status-container{
+    position:relative;
+}
+
+.categorytext{
+           font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}
+.toggleswitch{
+    color: #8C8C8C;
+    /* margin-top: 1%; */
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 5px;
+
+}
+.checkinput1{
+    background-color:#30C37C !important;
+    border:none;
+        width: 49.5px !important;
+    height: 27px;
+}
+.row1{
+      padding-left: 2% ;
+    padding-right: 2% ;
+}
+.rowbutton{
+    margin-top:5% !important;
+    margin-left:0.3% !important;
+}
+.submitbutton{
+    width: 258px;
+height: 50px;
+border-radius: 10px;
+font-family: "Inter",sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.submitbutton1{
+    width: 258px;
+height: 50px;
+border-radius: 10px;
+font-family: "Inter",sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#30C37C !important;
+
+}
+    .addsuccess{
+  font-size: 14px;
+                font-weight: 400;
+                color: #363636;
+                font-family: 'Inter', sans-serif;
+                margin-top: -1.5rem;
+                margin-bottom: 20px;
+}

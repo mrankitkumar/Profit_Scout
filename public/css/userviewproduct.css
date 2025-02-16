@@ -1,0 +1,1147 @@
+.scanproduct {
+    background-color: #f0f0f0 !important;
+}
+.text-muted {
+    font-weight: 500 !important;
+}
+.text-muted p {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    margin-top: 0.2rem !important;
+}
+.card-boxs {
+    padding: 1.5rem !important;
+    margin-top: 5rem !important;
+    padding-top: 0.1rem !important;
+    border-radius: 10px !important;
+}
+.goback {
+    width: 24% !important;
+    margin-left: 100% !important;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border-radius: 7px !important;
+}
+
+.icon {
+    right: 15rem;
+    font-size: small;
+    transform: translateY(-50%);
+    left: 5px;
+    top: 50%;
+    color: #9097a7;
+}
+
+.form-control {
+    font-size: 0.8rem !important;
+    border: 1px solid #f0f0f0 !important;
+    border-radius: 7px !important;
+    color: #8c8c8c !important;
+}
+
+input::placeholder {
+    margin-left: 5% !important;
+    position: absolute;
+}
+
+.form-range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4caf50 50%, #ddd 50%);
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.form-range::-webkit-slider-thumb,
+.form-range::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4caf50;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.smallwidth {
+    margin-top: 0%;
+   
+}
+
+.fbafbm {
+    background-color: #f0f0f0 !important;
+    color: black;
+    padding-left: 1.2% !important;
+    width: 20% !important;
+    height: 40px;
+    text-wrap-mode: nowrap;
+    margin-left: 1% !important;
+    border-radius: 7px !important;
+}
+
+.fbm {
+    margin-left: -13px;
+}
+
+.fba {
+    margin-left: -5px;
+}
+
+.all {
+    background-color: #f0f0f0 !important;
+    color: black;
+    margin-left: 1% !important;
+    width: 32% !important;
+    height: 40px;
+    text-wrap-mode: nowrap;
+    padding: 5px;
+    color: black;
+}
+
+.show {
+    margin-left: 0% !important;
+}
+.shows {
+    margin-left: -3% !important;
+}
+.btn-custom {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    text-align: center;
+    white-space: nowrap;
+}
+.setting1 {
+    width: 16% !important;
+    height: 40px;
+    text-wrap-mode: nowrap !important;
+    text-align: start !important;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border: none;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.lefticon {
+    width: 11% !important;
+    height: 40px;
+    text-wrap-mode: nowrap !important;
+    text-align: start !important;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border: none;
+    margin-top: 5px;
+    font-size: 12px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 7px !important;
+}
+.download {
+    width: 14% !important;
+    height: 40px;
+    text-wrap-mode: nowrap !important;
+    text-align: start !important;
+    background-color: #30c37c !important;
+    color: #ffffff !important;
+    border: none;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.product-card {
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+
+    margin-bottom: 16px;
+}
+
+.highlight-text {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.negative-margin {
+    color: #ff6c2f;
+    font-weight: bold;
+}
+
+.star-rating {
+    color: #ffc107;
+}
+
+.divider {
+    border-top: 1px dashed #ccc;
+}
+
+.icon-box,
+.checkbox-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.icon-box {
+    background: none !important;
+}
+
+.icon-box i {
+   
+    font-size: 16px;
+}
+
+.checkbox-box input {
+    width: 3%;
+    height: 21px;
+    margin-top: -0.5%;
+    margin-left: -4%;
+    border: 2.5px solid black;
+    border-radius: 0px !important;
+}
+
+.mcon {
+    border-radius: 20px !important;
+    width: 384px !important;
+    height: 146px !important;
+}
+.rangebox {
+    width: 226px;
+    margin: 20px;
+    display: flex;
+}
+#customRange1,
+#customRange2 {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 100%; 
+    height: 10px; 
+    background: linear-gradient(to right, #30c37c 50%, #cff3e2 50%);
+    border-radius: 5px; 
+    outline: none; 
+    cursor: pointer;
+}
+
+#customRange1::-webkit-slider-thumb,
+#customRange2::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #30c37c;
+    border-radius: 50%; 
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+}
+
+#customRange1::-moz-range-thumb,
+#customRange2::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #30c37c;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.rangetext {
+    margin-top: -5%;
+    width: 60px;
+    text-align: center;
+    margin-left: 5px;
+    border: none;
+    color: green;
+}
+.upload {
+    width: 26%;
+    height: 39px;
+    padding: 10px;
+    gap: 0px;
+    border-radius: 10px !important;
+    opacity: 0px;
+    background-color: #30c37c !important;
+    border: none !important;
+    color: #ffffff !important;
+    margin-left: -42% !important;
+}
+.cancel1 {
+    width: 26%;
+    height: 39px;
+    padding: 15px;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    color: #30c37c !important;
+    margin-left: -39% !important;
+}
+.marketplace {
+    margin-left: 1% !important;
+}
+
+.popoverclass {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popover-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ccc;
+    position: absolute;
+    top: -5px;
+    left: 20px;
+}
+
+.popover-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.popover-trigger .cross-icon {
+    position: absolute;
+    top: 31%;
+    left: 9%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.cross-icon-asin {
+    position: absolute;
+    top: 31%;
+    left: 20%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.cross-icon-brand {
+    position: absolute;
+    top: 31%;
+    left: 31%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.cross-icon-networth {
+    position: absolute;
+    top: 31%;
+    left: 41%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.cross-icon-roi {
+    position: absolute;
+    top: 31%;
+    left: 52%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.cross-icon-margin {
+    position: absolute;
+    top: 31%;
+    left: 63%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.clear {
+    width: 50%;
+    height: 38px;
+    padding: 6px;
+    border: #30c37c !important;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    color: #30c37c !important;
+}
+
+.buttoncollection {
+    width: 100%; 
+    max-width: 600px; 
+    height: 50px; 
+    white-space: nowrap; 
+    padding: -1px; 
+    background-color: #f9f9f9;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+/* #scansetting{
+  max-width:2000px;
+  width:100%;
+} */
+
+.buttoncollection::-webkit-scrollbar {
+    height: 2px; 
+}
+
+.buttoncollection::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 2px; 
+}
+
+.buttoncollection::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
+}
+
+.buttoncollection::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.buttoncollection button {
+    display: inline-block; 
+    min-width: 100px; 
+    margin-right: 10px; 
+    padding: 10px 20px; 
+    background-color: #fff; 
+    cursor: pointer; 
+}
+
+.buttoncollection button:hover {
+    background-color: #e0e0e0; 
+}
+
+.icon-box {
+    font-size: 24px; 
+    cursor: pointer; 
+    color: black; 
+    transition: color 0.3s ease; 
+}
+
+/* .icon-box:hover {
+    color: #30c37c !important; 
+    background-color: #30c37c !important; 
+} */
+.icon-box i {
+}
+.headingtext {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #262d34 !important;
+}
+.cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.successtextnavbar {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+    font-family: "Inter", sans-serif;
+    margin-top: -1.5rem;
+    margin-bottom: 20px;
+}
+.maindiv {
+    max-width: 2000px;
+    width: 100%;
+}
+
+.showbutton {
+    background-color: #f0f0f0 !important;
+}
+.headerstrong {
+    color: #30c37c !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+}
+
+.clearbuttonpopover {
+    border: 1px solid #30c37c !important;
+}
+.cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.svgicon {
+    fill: green;
+}
+.scansettingbutton {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+    font-family: "Inter", sans-serif;
+    margin-top: -1.5rem;
+    margin-bottom: 20px;
+}
+.popveraddbutton {
+    border: 1px solid #30c37c !important;
+}
+
+.sadow-mod {
+    width: 103vw !important;
+}
+.wid-mod {
+    width: 97% !important;
+    border-radius: 10px !important;
+}
+.box-margt {
+    margin-top: 2rem !important;
+}
+.icon-img {
+    margin-right: 0% !important;
+}
+
+/* Respons
+ive Design */
+
+
+@media screen and (max-width: 576px) {
+    .smallwidth {
+        width: 100% !important;
+        margin-left: -1px !important;
+        margin-top: 5px !important;
+    }
+    .fbafbm,
+    .all {
+        width: 100% !important;
+        margin-bottom: 5px;
+        background-color: #f0f0f0 !important;
+    }
+    .setting1,
+    .lefticon {
+        width: 100% !important;
+    }
+    .product-card {
+        padding: 8px;
+    }
+    .icon-box,
+    .checkbox-box {
+        width: 30px;
+        height: 30px;
+    }
+    .icon-box i {
+        font-size: 12px;
+    }
+    .form-control,
+    .form-range {
+        font-size: 0.7rem;
+    }
+    .headingtext {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #262d34 !important;
+        width: auto !important;
+        text-wrap-mode: wrap;
+    }
+    .download {
+        width: 100%;
+        padding: 2px;
+        height: 40px;
+        text-wrap-mode: nowrap;
+        background-color: #30c37c !important;
+        color: #ffffff;
+        border: none;
+        margin-top: 5px;
+    }
+    .marketplace {
+        margin-top: 1% !important;
+        margin-left: -1% !important;
+    }
+    .checkboxinput {
+        width: 20% !important;
+        margin-left: 1% !important;
+    }
+    .checkboxhead {
+        margin-top: 4% !important;
+    }
+    .popover-trigger .cross-icon {
+        position: absolute;
+        top: 31%;
+        left: 9%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-asin {
+        position: absolute;
+        top: 31%;
+        left: 20%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-brand {
+        position: absolute;
+        top: 31%;
+        left: 31%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-networth {
+        position: absolute;
+        top: 31%;
+        left: 43%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-roi {
+        position: absolute;
+        top: 31%;
+        left: 54%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-margin {
+        position: absolute;
+        top: 31%;
+        left: 61%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .headerstrong {
+        color: #30c37c !important;
+        font-size: 12px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .fbafbm,
+    .all {
+        background-color: #f0f0f0 !important;
+        color: #000 !important;
+        width: 50% !important;
+        display: flex;
+    }
+    .setting1,
+    .lefticon {
+        background-color: #28a745 !important;
+    }
+    .product-card {
+        margin-bottom: 12px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .setting1,
+    .lefticon,
+    .download {
+        width: 48% !important;
+        padding: 2px;
+        height: 40px;
+        text-wrap-mode: nowrap;
+        background-color: #30c37c !important;
+        color: #ffffff;
+        border: none;
+        margin-top: 5px;
+    }
+    .goback {
+        width: auto !important;
+    }
+    .popover-trigger .cross-icon {
+        position: absolute;
+        top: 31%;
+        left: 9%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-asin {
+        position: absolute;
+        top: 31%;
+        left: 20%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-brand {
+        position: absolute;
+        top: 31%;
+        left: 31%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-networth {
+        position: absolute;
+        top: 31%;
+        left: 43%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-roi {
+        position: absolute;
+        top: 31%;
+        left: 54%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-margin {
+        position: absolute;
+        top: 31%;
+        left: 61%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .icon-img {
+        margin-right: 10% !important;
+    }
+    .headerstrong {
+        color: #30c37c !important;
+        font-size: 12px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .fbafbm,
+    .all {
+        width: 100% !important;
+        margin-top: 5px;
+        margin-left: 0% !important;
+        background-color: #f0f0f0 !important;
+    }
+    .product-card {
+        padding: 12px;
+    }
+
+    .icon-box {
+        width: 43px;
+        height: 35px;
+    }
+    .checkbox-box {
+        width: 43px;
+        height: 35px;
+    }
+
+    .smallwidth {
+        width: 100% !important;
+        margin-left: -1px !important;
+        margin-top: 5px !important;
+    }
+    .goback {
+        width: 95% !important;
+    }
+
+    .lefticon {
+        width: 47.8% !important;
+        padding: 2px;
+        height: 40px;
+        text-wrap-mode: nowrap;
+        background-color: #30c37c !important;
+        color: #ffffff;
+        border: none;
+        margin-top: 5px;
+        margin-left: 1% !important;
+    }
+    .checkbox-box input {
+        width: 5%;
+        height: 19px;
+        margin-top: -0.5%;
+        margin-left: 0%;
+    }
+
+    .setting1,
+    .download {
+        width: 47.8% !important;
+        padding: 2px;
+        height: 40px;
+        text-wrap-mode: nowrap;
+        background-color: #30c37c !important;
+        color: #ffffff;
+        border: none;
+        margin-top: 5px;
+        margin-left: 0.5% !important;
+    }
+    .marketplace {
+        margin-top: 1% !important;
+        margin-left: 0% !important;
+    }
+    .popover-trigger .cross-icon {
+        position: absolute;
+        left: 15%;
+        top: 9%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-asin {
+        position: absolute;
+        top: 10%;
+        left: 64%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-brand {
+        position: absolute;
+        top: 31%;
+        left: 19%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-networth {
+        position: absolute;
+        top: 31%;
+        left: 67%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-roi {
+        position: absolute;
+        top: 59%;
+        left: 17%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .cross-icon-margin {
+        position: absolute;
+        top: 59%;
+        left: 65%;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .icon-img {
+        margin-right: 10% !important;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .fbafbm,
+    .all {
+        color: #000 !important;
+        width: auto !important;
+    }
+    .product-card {
+        padding: 16px;
+    }
+    .icon-box,
+    .checkbox-box {
+        width: 40px;
+        height: 40px;
+    }
+    .goback {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .rowheading {
+        display: block !important;
+    }
+    .colheading {
+        max-width: 100% !important;
+    }
+    .textlabel {
+        font-size: 10px !important;
+        font-weight: 400 !important;
+        text-wrap: wrap;
+    }
+    .icon-img {
+        margin-right: 7% !important;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .icon-img {
+        margin-right: 10% !important;
+    }
+    .checkbox-box input {
+        width: 10% !important;
+        height: 19px;
+        margin-top: -0.5%;
+        margin-left: 0%;
+    }
+    .rangebox {
+        width: 100% !important;
+        margin: 20px;
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lefticon {
+        width: 48.8% !important;
+        margin-left: 5px !important;
+    }
+}
+@media screen and (max-width: 699px) {
+    .icon-img {
+        margin-right: 18% !important;
+    }
+    .lefticon {
+        width: 48% !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .icon-img {
+        margin-right: 18% !important;
+        margin-left: -1rem !important;
+    }
+    .headerstrong {
+        color: #30c37c !important;
+        font-size: 12px !important;
+    }
+    .checkbox-box input {
+        width: 13% !important;
+        height: 19px;
+        margin-top: -0.5%;
+        margin-left: 0%;
+    }
+    .lefticon {
+        width: 47% !important;
+    }
+
+    .icon-box img {
+        width: 15px !important;
+    }
+    .setting1 {
+        width: 46.8% !important;
+    }
+}
+.head span {
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.mod-cont {
+    border-radius: 15px !important;
+}
+.g-btn {
+    width: 77px;
+    height: 38px !important;
+    background-color: #30c37c !important;
+    border-radius: 10px !important;
+}
+
+@media (min-width: 699px) and (max-width: 768px) {
+    .setting1 {
+        width: 48.8% !important;
+    }
+}
